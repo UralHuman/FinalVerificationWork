@@ -18,3 +18,13 @@ foreach (string str in arr)
         index++;
     }
 }
+
+Console.WriteLine("Новый массив строк с длиной не более 3 символов:");
+for (int i = 0; i < index; i++)
+{
+    Console.Write(result[i]);
+    if (i != index - 1)
+    {
+        Console.Write(", ");
+    }
+}
